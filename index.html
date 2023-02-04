@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация - GTA</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="/" class="myform">
+      <h2>Регистрация аккаунта на сайте</h2>
+      <p>Уже зарегистрированы? Войти</p>
+      <div class="imput_group">
+        <label for="username">Ваш логин</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="введите логин"
+        />
+      </div>
+      <div class="imput_group">
+        <label for="username">Email адрес</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="введите почту"
+        />
+      </div>
+      <div class="imput_group">
+        <label for="password">Ваш пароль</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="введите пароль"
+        />
+      </div>
+      <div class="imput_group">
+        <label for="gender"> Ваш пол</label>
+        <div class="input_group_wrapper">
+          <div class="imput_inner">
+            <input type="radio" name="gender" id="g1" value="male" />
+            <label for="g1"> Мужчина</label>
+          </div>
+          <div class="imput_inner">
+            <input type="radio" name="gender" id="g1" value="female" />
+            <label for="g1"> Женщина</label>
+          </div>
+            <div class="imput_group">
+                <label for="city"> Выберите сервер</label>
+                <select name="city" id="city" size="1"> 
+                    <option selected value="Almaty"> RED</option>
+                    <option value="Piter"> BLUE</option>
+                    <option value="Astana"> GREEN</option>
+                    <option value="Bishkek"> RED</option>
+                    <option value="neskazy"> GOLD</option>
+                </select>
+            </div>
+            <div class="imput_group">
+              <label for="gender"></label>
+              <div class="input_group_wrapper">
+                <div class="imput_inner">
+                  <input type="radio" name="gender" id="g1" value="male" />
+                  <label for="g1">Я согласен с Условиями использования</label>
+                </div>
+            <div class="imput_group">
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+      </div>
+    </form>
+  </body>
+</html>

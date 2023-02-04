@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+  font-family: "Caveat", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://abrakadabra.fun/uploads/posts/2022-01/1643490888_1-abrakadabra-fun-p-zadnii-fon-gta-1.jpg);
+}
+
+.myform {
+  padding: 25px 60px;
+  background-color: #fff;
+}
+
+.myform h2,
+p {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 1px solid #179477;
+}
+.imput_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.imput_group label {
+  color: #666;
+  padding: 10px;
+  font-size: 14px;
+}
+.imput_group input,
+.imput_group textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #179477;
+  font-size: 18px;
+  resize: none;
+}
+.imput_group input::placeholder,
+.imput_group textarea::placeholder {
+  color: #949494;
+}
+.imput_group_wrapper {
+  border: 1px solid #179477;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+.imput_group input[type="checkbox"],
+.imput_group input[type="radio"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  cursor: pointer;
+}
+.imput_inner label {
+  font-size: 18px;
+  padding: 15px;
+}
+.imput_inner {
+  display: flex;
+  align-items: center;
+}
+.imput_group input[type="radio"] {
+  border-radius: 100px;
+  padding: 10px;
+}
+.imput_group input[type="checkbox"]:checked,
+.imput_group input[type="radio"]:checked {
+  background-color: #179477;
+}
+.imput_group input[type="checkbox"]:checked {
+  position: relative;
+}
+.imput_group input[type="checkbox"]::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+}
+.imput_group select {
+  padding: 15px;
+  border: 1px solid #179477;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.imput_group input[type="submit"] {
+  color: #fff;
+  background-color: #179477;
+  transition: 300ms;
+  cursor: pointer;
+}
+.imput_group input[type="submit"]:hover {
+  color: #77e4d4;
+  background-color: #fff;
+}
